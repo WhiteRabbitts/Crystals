@@ -1,0 +1,40 @@
+.jumbotron {
+    text-align: center;
+    border-radius: 15px;
+    width: 80%;
+    padding-left: 40px;
+    margin-left: 110px;
+    color: royalblue;
+    background-color: lightsalmon;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body {
+    background-color: lightpink;
+}
+
+.gems {
+    padding-left: 100px;
+    margin-left: 45px;
+}
+.gems {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transform-origin: 165px;
+}
+.gems:hover {
+    transform: rotate(360deg);
+}
+
+.list-group-item {
+    text-align: center;
+    color: cornflowerblue;
+    background-color: aquamarine;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.list-group-item:hover {
+    background-color: darkslateblue;
+}
