@@ -13,7 +13,7 @@ var resetandstart = function(){
         'https://github.com/aalkowni90/Crystal-game/blob/master/assets/images/carton2.png?raw=true',
         'https://github.com/aalkowni90/Crystal-game/blob/master/assets/images/carton3.png?raw=true',
         'https://github.com/aalkowni90/Crystal-game/blob/master/assets/images/carton4.png?raw=true'
-    ];
+    ]
 
 randomresult = Math.floor(Math.random() * 69 ) + 30;
 
@@ -28,7 +28,11 @@ for(var i = 0; i < 4; i++){
         "class": 'crystal',
         "data-random": random
 });
-      
+
+    crystal.css({
+        "background-image":"url('" + images[i] + "')",
+        "background-size":"cover"
+    });
 
     $(".crystals").append(crystal);
 }
